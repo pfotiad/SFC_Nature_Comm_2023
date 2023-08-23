@@ -63,7 +63,7 @@ one corresponding to our atlas-based analyses and one corresponding to our voxel
      
           a. Process the subjects' resting-state functional MRI data using the CONN toolbox (https://web.conn-toolbox.org/resources/installation), as described in the manuscript,
      
-          b. Run the MATLAB script: prepare_functional_data.sh to generate some files that will be necessary later on when we generate the voxel-based functional connectivity matrices,
+          b. Run the Bash shell script: prepare_functional_data.sh to generate some files that will be necessary later on when we generate the voxel-based functional connectivity matrices,
      
           c. Run the MATLAB script: extract_voxel_based_BOLD_signal.m to generate the voxel-based BOLD signal time series of the subject of interest,
      
